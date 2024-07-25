@@ -2,7 +2,7 @@ using Azure;
 using Azure.AI.OpenAI;
 using OpenAI.Chat;
 
-string keyFromEnvironment = "4dc7efde9ba5425ebbbb84dc1a5d88b0";
+string keyFromEnvironment = "-";
 
 
 var builder = WebApplication.CreateBuilder(args);
