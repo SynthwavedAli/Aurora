@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import './prompt.css'; // Import the CSS file
 
+
+
+
 class Classcomp extends Component {
   constructor(props) {
     super(props);
@@ -23,18 +26,14 @@ class Classcomp extends Component {
         .then((data) => data.text())
         .catch((err) => {
           console.log(err.message);
-          return "Failed to fetch response";
+          return "Failed to fetch response. AI has not been started up by the owner. Contact notali.shzi@gmail.com for help.";
         });
 
-      // Add the new prompt and response to the log
+      // Add the new prompt and response to the log (prepend instead of append)
       this.setState((prevState) => ({
-        promptLog: [...prevState.promptLog, { prompt: inputValue, response: response }], // Append new prompt and response to log
+        promptLog: [{ prompt: inputValue, response: response }, ...prevState.promptLog], // Prepend new prompt and response to log
         inputValue: "" // Clear the input field
       }));
-
-      
-      
-
     } catch (error) {
       console.error('There has been a problem with your fetch operation:', error);
       alert(`Failed to fetch: ${error.message}`);
@@ -58,7 +57,6 @@ class Classcomp extends Component {
       <>
         <form onSubmit={this.handleSubmit}>
           <label>
-            Enter your Prompt Here:{" "}
             <input
               name="myInput"
               value={this.state.inputValue} // Bind input value to state
@@ -66,7 +64,7 @@ class Classcomp extends Component {
             />
           </label>
         </form>
-      
+
         <div className="log-container">
           <h3>Prompt Log:</h3>
           <ul>
@@ -81,8 +79,6 @@ class Classcomp extends Component {
       </>
     );
   }
-
-  
 }
 
 export default Classcomp;

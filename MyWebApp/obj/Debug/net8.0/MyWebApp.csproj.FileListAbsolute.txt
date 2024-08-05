@@ -31,3 +31,37 @@ c:\Users\alish\react app\MyWebApp\bin\Debug\net8.0\System.ClientModel.dll
 c:\Users\alish\react app\MyWebApp\bin\Debug\net8.0\System.Memory.Data.dll
 c:\Users\alish\react app\MyWebApp\obj\Debug\net8.0\MyWebApp.csproj.AssemblyReference.cache
 c:\Users\alish\react app\MyWebApp\obj\Debug\net8.0\MyWebApp.csproj.Up2Date
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\appsettings.json
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\MyWebApp.exe
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\MyWebApp.deps.json
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\MyWebApp.runtimeconfig.json
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\MyWebApp.dll
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\MyWebApp.pdb
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\Azure.AI.OpenAI.dll
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\OpenAI.dll
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\alish\code_repo\MyWebApp\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.csproj.AssemblyReference.cache
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.AssemblyInfoInputs.cache
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.AssemblyInfo.cs
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.csproj.CoreCompileInputs.cache
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.sourcelink.json
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\staticwebassets\msbuild.MyWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\staticwebassets\msbuild.build.MyWebApp.props
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MyWebApp.props
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MyWebApp.props
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\scopedcss\bundle\MyWebApp.styles.css
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.csproj.Up2Date
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.dll
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\refint\MyWebApp.dll
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.pdb
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\MyWebApp.genruntimeconfig.cache
+C:\Users\alish\code_repo\MyWebApp\obj\Debug\net8.0\ref\MyWebApp.dll

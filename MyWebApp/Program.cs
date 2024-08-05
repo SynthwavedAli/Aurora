@@ -2,10 +2,13 @@ using Azure;
 using Azure.AI.OpenAI;
 using OpenAI.Chat;
 
-string keyFromEnvironment = "-";
+string keyFromEnvironment = Environment.GetEnvironmentVariable("API_KEY");
+
+
 
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add CORS services to the container
 builder.Services.AddCors(options =>
@@ -30,12 +33,12 @@ app.MapGet("/", (HttpContext context) =>
     var message = context.Request.Query["message"];
 
     AzureOpenAIClient azureClient = new(
-        new Uri("https://fcagaoai.openai.azure.com/"),
+        new Uri("https://a1b2c3.openai.azure.com/"),
         new AzureKeyCredential(keyFromEnvironment));
     ChatClient chatClient = azureClient.GetChatClient("gpt35");
 
 
-    ChatCompletion completion = chatClient.CompleteChat(
+    ChatCompletion completion = chatClient.CompleteChat(    
         [
             // System messages represent instructions or other guidance about how the assistant should behave
             new SystemChatMessage("you are an ai like chat gpt but better"),
@@ -46,5 +49,6 @@ app.MapGet("/", (HttpContext context) =>
 return completion.Content[0].Text; 
 }
  );
+
 
 app.Run();

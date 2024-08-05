@@ -2,49 +2,77 @@
 
 /* Style for the log container */
 .log-container {
-    border: 1px solid #ccc; /* Adds a light gray border around the container */
-    padding: 10px; /* Adds padding inside the container for spacing */
-    margin-top: 20px; /* Adds space above the container */
-    max-height: 200px; /* Sets the maximum height of the container */
-    width: 500; /* Sets the width of the container relative to its parent */
-    overflow-y: auto; /* Adds a vertical scrollbar if content exceeds max height */
-    background-color: #f9f9f9; /* Sets a light gray background color for the container */
-  }
-  
-  /* Style for the heading inside the log container */
-  .log-container h3 {
-    margin-top: 0; /* Removes the top margin from the heading */
-  }
-  
-  /* Style for the unordered list inside the log container */
-  .log-container ul {
-    list-style-type: none; /* Removes default bullet points from the list */
-    padding-left: 0; /* Removes default padding on the left side of the list */
-  }
-  
-  /* Style for each list item inside the log container */
-  .log-container li {
-    margin-bottom: 10px; /* Adds space below each list item */
-    padding: 5px; /* Adds padding inside each list item for spacing */
-    border-bottom: 1px solid #ddd; /* Adds a light gray border below each list item */
-  }
+  border: 1px solid #ccc; /* Adds a light gray border around the container */
+  padding: 10px; /* Adds padding inside the container for spacing */
+  margin-top: 20px; /* Adds space above the container */
+  max-height: 100px; /* Sets the maximum height of the container */
+  width: 500; /* Sets the width of the container relative to its parent */
+  overflow-y: auto; /* Adds a vertical scrollbar if content exceeds max height */
+  background-color: #de3737; /* Sets a light gray background color for the container */
+}
 
-  /* Classcomp.css */
+/* Style for the heading inside the log container */
+.log-container h3 {
+  margin-top: 0; /* Removes the top margin from the heading */
+}
+
+/* Style for the unordered list inside the log container */
+.log-container ul {
+  list-style-type: none; /* Removes default bullet points from the list */
+  padding-left: 0; /* Removes default padding on the left side of the list */
+}
+
+/* Style for each list item inside the log container */
+.log-container li {
+  margin-bottom: 10px; /* Adds space below each list item */
+  padding: 5px; /* Adds padding inside each list item for spacing */
+  border-bottom: 1px solid #ddd; /* Adds a light gray border below each list item */
+}
+
+/* Classcomp.css */
 .container {
-    position: relative; /* Parent container needs relative positioning */
-  }
-  
-  .log-container {
-    position: absolute; /* Position the box absolutely within the parent */
-    top: 100px; /* Distance from the top of the parent */
-    left: 400px; /* Distance from the left of the parent */
-    border: 1px solid #ccc;
-    padding: 10px;
-    max-height: 200px;
-    width: 40%;
-    overflow-y: auto;
-    background-color: #f9f9f9;
-  }
-  
-  
-  
+  position: relative; /* Parent container needs relative positioning */
+}
+
+.log-container {
+  position: absolute; /* Position the box absolutely within the parent */
+  top: 17 0px; /* Distance from the top of the parent */
+  left: 430px; /* Distance from the left of the parent */
+  border: 1px solid #05020200;
+  padding: 10px;
+  max-height: 200px;
+  width: 30%;
+  overflow-y: auto;
+  background-color: #686464;
+}
+
+/* prompt.css */
+.form-container {
+display: flex;
+flex-direction: column;
+align-items: center; /* Center the form horizontally */
+margin-top: 100px; /* Add some space from the top */
+}
+
+input[name="myInput"] {
+margin: 10px 0; /* Add some space around the input */
+padding: 10px; /* Add some padding inside the input */
+font-size: 19px; /* Adjust the font size */
+border: 1px solid #cccccc05; /* Add a border to the input */
+border-radius: 90px; /* Make the corners of the input rounded */
+transform: translate(0px, -15px); /* Move the text box right by 20px and up by 10px */
+}
+
+label {
+font-weight: bold; /* Make the label text bold */
+margin-bottom: 100px; /* Add some space below the label */
+}
+
+.log-container {
+margin-top: 20px; /* Add some space above the log container */
+}
+
+
+
+
+
